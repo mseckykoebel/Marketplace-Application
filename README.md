@@ -1,6 +1,7 @@
 # Marketplace Application
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.4.
+Made in conjunction with takign the course here: https://www.udemy.com/the-complete-angular-master-class/
 
 ## Development server
 
