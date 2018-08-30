@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
 
-  <a class="navbar-brand" routerLink>
+  <a class="navbar-brand">
     Mock Shop
   </a>
 
@@ -9,6 +9,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
+  <!-- contains all of the navbar items -->
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
 
     <!-- list items represents a link in the navigation bar -->
@@ -34,6 +35,8 @@
           aria-expanded="false">
           {{appUser.name}}
         </a>
+
+        <!-- here are all of the items in the dropdown menu-->
         <div ngbDropdownMenu class="dropdown-menu" aria-labelledby="dropdown01">
           <a class="dropdown-item" routerLink="/my-orders">
             My Orders
@@ -50,8 +53,12 @@
           </ng-container>
           
           <a class="dropdown-item" (click)="logout()">Log Out</a>
-        </div>
-      </li>
-    </ul>
+
+        </div> <!-- /here are all of the items in the dropdown menu-->
+
+      </li> <!-- /dropdown menu in the navigation bar -->
+
+    </ul> <!-- /list items represents a link in the navigation bar -->
+
   </div>
 </nav>
